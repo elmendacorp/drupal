@@ -1,0 +1,13 @@
+name: 'Mi Tema'
+type: theme
+description: 'Un tema base creado desde cero para Drupal 11.'
+core_version_requirement: ^11
+base theme: false
+package: Custom
+libraries:
+  - mi_tema/global-styling
+regions:
+  header: 'Header'
+  content: 'Content'
+  sidebar: 'Sidebar'
+  footer: 'Footer'
